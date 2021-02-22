@@ -1,4 +1,4 @@
-# Exercises 5
+# Chapter5
 ### Exercises 5.1
 #include <stdio.h>
 char  line[100];   
