@@ -88,3 +88,16 @@ int main()
     printf("%d minutes", minutes%60);
     return (0);
 }
+### Exercises 5.7
+#include <stdio.h>
+char  line[100];   
+float c;   
+
+int main()
+{
+    printf("Enter centimeter: ");
+    fgets(line, sizeof(line), stdin);
+    sscanf(line, "%f", &c);
+    printf("In inches is %.2f", c/2.54);
+    return (0);
+}
